@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.kizzito.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_onlineapp"
+        android:name="com.kizzito.onlineapp"
+        android:label="Onlineapp"
+        tools:layout="@layout/fragment_onlineapp" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.kizzito.aboutus"
+        android:label="About us"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.kizzito.contactus"
+        android:label="Contactus"
+        tools:layout="@layout/fragment_contactus" />
+    <fragment
+        android:id="@+id/nav_videose"
+        android:name="com.kizzito.videos"
+        android:label="Videos"
+        tools:layout="@layout/fragment_videos" />
+    <fragment
+        android:id="@+id/nav_elearning"
+        android:name="com.kizzito.elearning"
+        android:label="E-learning"
+        tools:layout="@layout/fragment_elearning" />
+
+    <fragment
+        android:id="@+id/briks"
+        android:name="com.kizzito.bricket"
+        android:label="Briquettes_production"
+        tools:layout="@layout/briquettes_production" />
+
+    <fragment
+        android:id="@+id/agric"
+        android:name="com.kizzito.agriculture"
+        android:label="Agriculture"
+        tools:layout="@layout/fragment_agriculture" />
+
+
+    <fragment
+        android:id="@+id/mush"
+        android:name="com.kizzito.mushroom"
+        android:label="Mushroom growing"
+        tools:layout="@layout/fragment_mushroom" />
+
+
+    <fragment
+        android:id="@+id/ict"
+        android:name="com.kizzito.ict"
+        android:label="Ict club"
+        tools:layout="@layout/fragment_ict" />
+
+
+    <fragment
+        android:id="@+id/fish"
+        android:name="com.kizzito.fish"
+        android:label="Fish farming"
+        tools:layout="@layout/fragment_fish" />
+
+    <fragment
+        android:id="@+id/arts"
+        android:name="com.kizzito.artscraft"
+        android:label="Arts and Crafts"
+        tools:layout="@layout/fragment_artscraft" />
+
+    <fragment
+        android:id="@+id/poultry"
+        android:name="com.kizzito.poultry"
+        android:label="Poultry"
+        tools:layout="@layout/fragment_poultry" />
+
+    <fragment
+        android:id="@+id/paver"
+        android:name="com.kizzito.pavers"
+        android:label="Paver making"
+        tools:layout="@layout/fragment_pavers" />
+
+
+
+    <fragment
+        android:id="@+id/interact"
+        android:name="com.kizzito.interact"
+        android:label="Interact Club"
+        tools:layout="@layout/fragment_interact" />
+    <fragment
+        android:id="@+id/land"
+        android:name="com.kizzito.land"
+        android:label="Landscaping Club"
+        tools:layout="@layout/fragment_land" />
+
+
+</navigation>

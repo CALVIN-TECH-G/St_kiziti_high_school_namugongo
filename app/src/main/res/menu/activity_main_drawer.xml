@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item android:title="Projects">
+            <menu>
+                <item
+                    android:id="@+id/briks"
+                    android:icon="@drawable/bricks"
+                    android:title="Briquettes production" />
+                <item
+                    android:id="@+id/agric"
+                    android:icon="@drawable/smartagri"
+                    android:title="Smart-agriculture" />
+
+                <item
+                    android:id="@+id/mush"
+                    android:icon="@drawable/mushroom"
+                    android:title="Mushroom-growing" />
+
+                <item
+                    android:id="@+id/fish"
+                    android:icon="@drawable/fish"
+                    android:title="Fish-farming" />
+
+                <item
+                    android:id="@+id/arts"
+                    android:icon="@drawable/arts"
+                    android:title="Arts and Crafts" />
+
+                <item
+                    android:id="@+id/poultry"
+                    android:icon="@drawable/poultry"
+                    android:title="Poultry" />
+
+                <item
+                    android:id="@+id/paver"
+                    android:icon="@drawable/paver"
+                    android:title="Paver making" />
+
+
+            </menu>
+
+        </item>
+
+        <item android:title="Clubs">
+            <menu>
+                <item
+                    android:id="@+id/ict"
+                    android:icon="@drawable/baseline_computer_24"
+                    android:title="Ict Club" />
+                <item
+                    android:id="@+id/interact"
+                    android:icon="@drawable/baseline_emoji_people_24"
+                    android:title="Interact Club" />
+
+                <item
+                    android:id="@+id/land"
+                    android:icon="@drawable/baseline_landscape_24"
+                    android:title="LandScaping Club" />
+
+
+
+
+            </menu>
+
+        </item>
+
+
+        <item android:title="Others">
+            <menu>
+
+
+                <item
+                    android:id="@+id/nav_onlineapp"
+                    android:icon="@drawable/baseline_online_prediction_24"
+                    android:title="Online Application" />
+                <item
+                    android:id="@+id/nav_videose"
+                    android:icon="@drawable/baseline_video_library_24"
+                    android:title="Videos" />
+                <item
+                    android:id="@+id/nav_elearning"
+                    android:icon="@drawable/baseline_school_24"
+                    android:title="E-Laerning" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/baseline_people_24"
+                    android:title="About us" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/baseline_contact_phone_24"
+                    android:title="Contact us" />
+
+
+
+            </menu>
+
+        </item>
+
+
+    </group>
+
+
+</menu>

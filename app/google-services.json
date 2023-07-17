@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "361892791948",
+    "project_id": "st-kizzito",
+    "storage_bucket": "st-kizzito.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361892791948:android:31a57e96616bbb31bc9da9",
+        "android_client_info": {
+          "package_name": "com.kizzito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361892791948-q2dimfiijenc7s9p9kdk7ra8rp1ah94e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0E4fxsfoPrUGsLu9KKYakB1pMN7gIRns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361892791948-q2dimfiijenc7s9p9kdk7ra8rp1ah94e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

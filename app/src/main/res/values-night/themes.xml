@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Kizzito" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowBackground">@drawable/kizzisplash</item>
+
+    </style>
+
+    <style name="other" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="android:statusBarColor">@color/lightb</item>
+    <item name="android:navigationBarColor">@color/lightb</item>
+
+    </style>
+</resources>
